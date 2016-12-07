@@ -33,7 +33,7 @@ Two constants of an app built in Clarity are the header and content area. These 
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="/images/documentation/app-layout/header_contentarea.png?{{ site.time | date: '%s%N' }}" alt="Header and Content Area"/>
+        <img src="assets/images/documentation/app-layout/header_contentarea.png?{{ site.time | date: '%s%N' }}" alt="Header and Content Area"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <h5 style="margin-top:0">Header</h5>
@@ -66,7 +66,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="/images/documentation/app-layout/cards.png?{{ site.time | date: '%s%N' }}" alt="Cards"/>
+        <img src="assets/images/documentation/app-layout/cards.png?{{ site.time | date: '%s%N' }}" alt="Cards"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -87,7 +87,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="/images/documentation/app-layout/tables.png?{{ site.time | date: '%s%N' }}" alt="Tables and Datagrids"/>
+        <img src="assets/images/documentation/app-layout/tables.png?{{ site.time | date: '%s%N' }}" alt="Tables and Datagrids"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -106,7 +106,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="/images/documentation/app-layout/forms.png?{{ site.time | date: '%s%N' }}" alt="Forms"/>
+        <img src="assets/images/documentation/app-layout/forms.png?{{ site.time | date: '%s%N' }}" alt="Forms"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -123,7 +123,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="/images/documentation/app-layout/tabs.png?{{ site.time | date: '%s%N' }}" alt="Tabs"/>
+        <img src="assets/images/documentation/app-layout/tabs.png?{{ site.time | date: '%s%N' }}" alt="Tabs"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -139,7 +139,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="/images/documentation/app-layout/typography.png?{{ site.time | date: '%s%N' }}" alt="White Space and Typography"/>
+        <img src="assets/images/documentation/app-layout/typography.png?{{ site.time | date: '%s%N' }}" alt="White Space and Typography"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>

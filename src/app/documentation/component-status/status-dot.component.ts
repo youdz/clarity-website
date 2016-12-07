@@ -3,7 +3,7 @@ import {Component, Input} from '@angular/core';
 @Component({
   selector: 'status-dot',
   template: `
-    <img src="/assets/images/documentation/status/{{image}}.svg" title="{{message}}" alt="{{message}}">
+    <img src="assets/images/documentation/status/{{image}}.svg" title="{{message}}" alt="{{message}}">
   `,
 })
 export class StatusDotComponent {

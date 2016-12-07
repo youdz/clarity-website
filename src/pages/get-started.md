@@ -211,7 +211,7 @@ adding the file to the styles array in <code class="clr-code">angular-cli.json</
 
 ## Device and Browser Support {#browserSupport}
 
-![Device and Browser Support](/assets/images/get-started/device_support.png) {.bump-down}
+![Device and Browser Support](assets/images/get-started/device_support.png) {.bump-down}
 
 ## Contributing to Clarity {#contribute_guidelines}
 

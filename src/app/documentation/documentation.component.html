@@ -1,5 +1,25 @@
-<main class="content-area" [class.dox-content-panel]="false">
+<main class="content-area">
   <section class="dox-content">
     <router-outlet></router-outlet>
   </section>
 </main>
+<nav class="sidenav">
+  <section class="sidenav-content">
+    <a class="nav-link" routerLink="/documentation" routerLinkActive="active">Component Status</a>
+
+    <section class="nav-group collapsible">
+      <input id="tab2" type="checkbox">
+      <label for="tab2">Patterns</label>
+      <ul class="nav-list">
+        <documentation-nav-links type="pattern"></documentation-nav-links>
+      </ul>
+    </section>
+    <section class="nav-group collapsible">
+      <input id="tab1" type="checkbox">
+      <label for="tab1">Components</label>
+      <ul class="nav-list">
+        <documentation-nav-links type="component"></documentation-nav-links>
+      </ul>
+    </section>
+  </section>
+</nav>

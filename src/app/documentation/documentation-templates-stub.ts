@@ -3,7 +3,7 @@
  * It works fine with webpack, but angular-cli breaks them. See https://github.com/angular/angular-cli/issues/3306
  */
 export const TEMPLATES = {
-  // "app-layout": require("!html!../../../loaders/markdown!../../pages/documentation/app-layout.md"),
+  "app-layout": require("!html!../../../loaders/markdown!../../pages/documentation/app-layout.md"),
   "alerts": require("!html!../../../loaders/markdown!../../pages/documentation/alerts.md"),
   // "badges": require("!html!../../../loaders/markdown!../../pages/documentation/badges.md"),
   // "buttons": require("!html!../../../loaders/markdown!../../pages/documentation/buttons.md"),

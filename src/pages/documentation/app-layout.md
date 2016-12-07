@@ -1,9 +1,3 @@
----
-title: Application Layout
-permalink: /documentation/app-layout
-layout: documentation
----
-
 ##### A properly structured layout enforces an optimal, consistent experience across applications. {.component-summary}
 
 ### Layout

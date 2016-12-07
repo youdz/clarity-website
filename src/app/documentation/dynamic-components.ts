@@ -15,7 +15,10 @@ for (let component of COMPONENTS.list) {
 
     ALL_DOCS.push({
       path: component.url,
-      component: DocComponent
+      component: DocComponent,
+      data: {
+        bodyClass: "page-"+component.url
+      },
     });
   }
 }

@@ -6,9 +6,9 @@
 import {Component} from "@angular/core";
 
 @Component({
-    selector: "clr-alert-demo",
-    styleUrls: ["./alert.demo.css"],
-    templateUrl: "./alert.demo.html"
+    selector: "clr-layout-all-demo",
+    templateUrl: "./layout-all.html",
+    styleUrls: ["./layout.demo.css"]
 })
-export class AlertsDemo {
+export class LayoutAllDemo {
 }

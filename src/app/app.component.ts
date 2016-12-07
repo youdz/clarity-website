@@ -1,4 +1,4 @@
-import {Component, ElementRef, HostBinding, OnInit, Renderer} from '@angular/core';
+import {Component, ElementRef, OnInit, Renderer} from '@angular/core';
 import {Router, NavigationEnd} from "@angular/router";
 
 const TITLE = require('../settings/global.json').alt_title;
@@ -17,18 +17,23 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.router.events.subscribe((change: any) => {
       if (change instanceof NavigationEnd) {
-        if (this.bodyClass) {
-          this.renderer.setElementClass(this.el.nativeElement, this.bodyClass, false);
-        }
-        this.updateBodyClass();
-        this.renderer.setElementClass(this.el.nativeElement, this.bodyClass, true);
+        this.bodyClasses.forEach(className => this.renderer.setElementClass(this.el.nativeElement, className, false));
+        this.updateBodyClasses();
+        this.bodyClasses.forEach(className => this.renderer.setElementClass(this.el.nativeElement, className, true));
       }
     });
   }
 
-  bodyClass = "";
-  updateBodyClass() {
-    this.bodyClass = this.router.routerState.snapshot.root.firstChild.data["bodyClass"];
+  bodyClasses = [];
+  updateBodyClasses() {
+    let route = this.router.routerState.snapshot.root;
+    this.bodyClasses.length = 0;
+    while(route) {
+      if (route.data && route.data["bodyClass"]) {
+        this.bodyClasses.push(route.data["bodyClass"]);
+      }
+      route = route.firstChild;
+    }
   }
 
   public title = TITLE;

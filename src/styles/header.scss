@@ -1,0 +1,315 @@
+.main-container {
+    & > header {
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+
+        .branding > a {
+            height: $bl-2_5;
+        }
+
+        a {
+            color: #fafafa;
+
+            &:hover, &:active {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            &:visited {
+                color: #fafafa;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+header .branding .logo,
+header .branding .clr-icon,
+.header .branding .logo,
+.header .branding .clr-icon {
+    margin-right: $bl-0_5;
+}
+
+.sliding-nav-toggle {
+    display: none;
+}
+
+.sliding-nav-wrapper, .sliding-sidenav-wrapper {
+    will-change: margin;
+    transition: margin 0.22s ease-out;
+
+    display: none;
+    margin-left: -100%;
+    height: 100vh;
+    width: 35%;
+    min-width: baselineRem(10);
+    padding: 0;
+    padding-right: $bl-2_0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1032;
+    overflow: hidden;
+
+    h5 {
+        color: #565656;
+        font-size: 14px;
+        padding-left: $bl-1_0;
+        margin-top: $bl-2_0;
+
+        &.furst, &.changelog-hdr {
+            margin-top: $bl-1_0;
+        }
+    }
+}
+
+.sliding-sidenav-wrapper {
+    width: 50%;
+    min-width: 320px;
+    max-width: 400px;
+
+    h5 {
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &.first {
+            margin-top: $bl-1_0 - 4;
+        }
+    }
+}
+
+a.close-toggle {
+    display: block;
+    position: absolute;
+    right: $bl-0_75;
+    top: $bl-1_0 - 4;
+    font-size: $bl-1_5;
+    color: #f0f0f0;
+
+    &:hover, &:focus {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.sliding-sidenav-wrapper {
+    margin-left: auto;
+    margin-right: -100%;
+    left: auto;
+    right: 0;
+    padding-left: $bl-2_0;
+    padding-right: 0;
+
+    a.close-toggle {
+        left: 0;
+        right: auto;
+    }
+}
+
+.sliding-nav-backdrop {
+    will-change: visibility;
+    transition: visibility 0.3s linear;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.74);
+    z-index: 1031;
+    display: none;
+    visibility: hidden;
+}
+
+.sliding-nav {
+    background: #fafafa;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+
+    .sliding-nav-logo > .logo-img {
+        background-image: url("../assets/images/clarity_logo.svg");
+        height: $bl-1_5;
+        width: $bl-1_5;
+        display: inline-block;
+        margin: $bl-0_5 0 0 $bl-0_5;
+    }
+
+    ul.slider-nav {
+        margin: 0;
+        padding: 0;
+        display: block;
+        border: 0 none;
+        box-shadow: none;
+        color: #fff;
+        list-style-type: none;
+
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        a.nav-link {
+            will-change: color background-color;
+            transition: all 0.16s linear;
+            color: #565656;
+            font-weight: 200;
+            letter-spacing: 0.04em;
+            display: block;
+            width: 100%;
+            padding: 0 $bl-0_5;
+            display: block;
+            margin: $bl-0_75 0 $bl-0_75 $bl-0_5;
+            border-radius: 3px 0 0 3px;
+
+            &.nav-link-header {
+                font-weight: 600;
+
+                &:last-child {
+                    margin-top: baselineRem(1.5);
+                }
+            }
+
+            &:hover {
+                color: #000;
+                text-decoration: none;
+                background-color: #eee;
+            }
+
+            &.active {
+                background: #D9E4EA;
+
+                &:hover, &:active, &:focus {
+                    background: #D9E4EA;
+                }
+            }
+
+            & > .nav-link-tag {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+body.show-leftnav {
+    .sliding-nav-wrapper {
+        margin-left: 0;
+    }
+
+    .sliding-nav-backdrop {
+        display: block;
+        visibility: visible;
+    }
+}
+
+body.show-sidebar {
+    .sliding-nav-wrapper {
+        margin-left: -100%;
+    }
+
+    .sliding-sidenav-wrapper {
+        margin-right: 0;
+    }
+
+    .sliding-nav-backdrop {
+        display: block;
+        visibility: visible;
+    }
+}
+
+header .branding > a.sliding-nav-toggle {
+    font-size: $bl-1_0;
+    display: none;
+}
+
+.github-btn {
+    margin-top: $bl-1_0 - 4;
+}
+
+@media (max-width: 1116px) {
+    .main-container {
+        & > header .branding, & > .header .branding {
+            width: auto;
+            max-width: none;
+            min-width: 0;
+            padding-right: $bl-1_0;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .sliding-nav-backdrop {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .sliding-nav-wrapper {
+        display: block;
+    }
+
+    .github-btn {
+        display: none;
+    }
+
+    .layout-home,
+    .layout-documentation,
+    .layout-get-started,
+    .layout-community,
+    .layout-news {
+        & > .main-container {
+            & > header {
+                .branding {
+                    .clr-vmw-logo {
+                        visibility: hidden;
+                        margin-right: $bl-0_25;
+                    }
+
+                    & > a.sliding-nav-toggle {
+                        display: block;
+                        height: $bl-2_5;
+                        width: $bl-1_5;
+                        background: url(../assets/images/home/menu.svg) 50% 50% no-repeat;
+                        position: absolute;
+                        top: -1px;
+                        left: $bl-0_75;
+                    }
+                }
+
+                .settings {
+                    & > a.sliding-sidenav-toggle {
+                        display: block;
+                        width: $bl-1_5;
+                        background: url(../assets/images/home/slider.svg) 50% 50% no-repeat;
+                        position: absolute;
+                        top: $bl-0_75;
+                        right: 8px;
+                        height: $bl-1_0;
+                    }
+                }
+            }
+        }
+
+        & > .main-container {
+            & > header {
+                div.header-nav, .divider, .header-nav {
+                    // funkiness of the homepage navbar makes this the path of least resistance
+                    display: none !important;
+                }
+            }
+        }
+
+        & > .main-container {
+            & > header, & > .header {
+                padding: 0 $bl-1_0;
+
+                .branding {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}

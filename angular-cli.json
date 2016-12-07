@@ -15,12 +15,17 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "app",
+      "prefix": "",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "../node_modules/prismjs/themes/prism-solarizedlight.css",
+        "../node_modules/clarity-ui/clarity-ui.min.css",
+        "styles/main.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/prismjs/prism.js",
+        "../node_modules/prismjs/components/prism-typescript.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

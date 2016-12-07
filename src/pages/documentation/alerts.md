@@ -21,11 +21,11 @@ Each action should extend the <code class="clr-code">.alert-action</code> class.
 
 Clarity has error, warning, information, and success alerts denoted by the following classes:
 
-{ .list}
 - .alert-danger
 - .alert-warning
 - .alert-info
 - .alert-success
+{ .list}
 
 <clr-alert-demo-styles></clr-alert-demo-styles>
 
@@ -150,11 +150,11 @@ This class must be applied with <code class="clr-code">.alert</code> to render a
 
 Standard alerts are part of the content area.  These alerts are for notifying users that a particular component or area of the screen needs attention.  Standard alerts have four levels, denoted by color and icon. From most to least severe, they are:
 
-{ .list}
 - Error–a problem needs fixing
 - Warning–an action might have a harmful outcome
 - Info–a situation needs attention, at some point
 - Success–a significant achievement occurred
+{ .list}
 
 Other choices for displaying messages are [input field validations](/documentation/input-fields)  and [modals](/documentation/modals) .  However, these components require users to take action before proceeding.
 
@@ -226,9 +226,9 @@ App-level alerts have three severity levels:
 
 ### Guidelines
 
-{ .list}
 - Show only one app-level alert at a time.
 - Keep the message text to one line–don't wrap the text.
 - Include up to two actions and keep button labels concise.
 - Do not include a menu within the alert.
 - When appropriate, include a close icon so that the app-level alert can be dismissed.
+{ .list}

@@ -38,7 +38,6 @@ Two constants of an app built in Clarity are the header and content area. These 
     <div class="col-xs-12 col-md-7">
         <h5 style="margin-top:0">Header</h5>
         The <a href="/documentation/header">header</a> is for branding and app-level elements such as navigation, search, and account settings.
-
         <h5>Content Area</h5>
         The content area is where users focus their attention most of the time, gathering information and performing tasks–it is the canvas for your application. As the largest portion of your app, the content area is always visible.
     </div>

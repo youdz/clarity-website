@@ -10,42 +10,44 @@ for (let component of COMPONENTS.list) {
     @Component({
       selector: component.url,
       template: `
-        <section class="dox-header">
-          <h1>{{title}}</h1>
-
-          <div class="component-workstream-bugs">
-            <span class="bug bug-html" [class.hidden]="!uiDone && !uiInProgress">
-                <img src="assets/images/bugs/badge_html5{{uiInProgress?'_inprogress':''}}.svg"
-                  alt="{{uiInProgress?'Development in Progress':'HTML5'}}"
-                  title="{{uiInProgress?'Development in Progress':'HTML5'}}">
-            </span>
-            <span class="bug bug-css" [class.hidden]="!uiDone && !uiInProgress">
-                <img src="assets/images/bugs/badge_css3{{uiInProgress?'_inprogress':''}}.svg"
-                  alt="{{uiInProgress?'Development in Progress':'CSS3'}}"
-                  title="{{uiInProgress?'Development in Progress':'CSS3'}}">
-            </span>
-            <span class="bug bug-ng" *ngIf="ngDone || ngInProgress">
-                <img src="assets/images/bugs/badge_ng{{ngInProgress?'_inprogress':''}}.svg"
-                  alt="{{uiInProgress?'Development in Progress':'Angular 2'}}"
-                  title="{{uiInProgress?'Development in Progress':'Angular 2'}}">
-            </span>
-          </div>
-        </section>
-
-        <div class="dox-tabs">
-            <ul class="list-unstyled">
-                <!-- TODO handle scrolling and .active class -->
-                <li><a routerLink="#top" id="topTabLink" class="clrweb-tablink">Examples &amp; Code</a></li>
-                <li><a routerLink="#top" class="clrweb-tablink" id="guidelinesTabLink">Design Guidelines</a></li>
-            </ul>
-        </div>
-
-        <section class="dox-content">
-          <div class="dox-content-wrapper">
-            <a id="top"></a>
-            ${ TEMPLATES[component.url] }
-          </div>
-        </section>
+        <main class="content-area dox-content-panel">
+          <section class="dox-header">
+            <h1>{{title}}</h1>
+  
+            <div class="component-workstream-bugs">
+              <span class="bug bug-html" [class.hidden]="!uiDone && !uiInProgress">
+                  <img src="assets/images/bugs/badge_html5{{uiInProgress?'_inprogress':''}}.svg"
+                    alt="{{uiInProgress?'Development in Progress':'HTML5'}}"
+                    title="{{uiInProgress?'Development in Progress':'HTML5'}}">
+              </span>
+              <span class="bug bug-css" [class.hidden]="!uiDone && !uiInProgress">
+                  <img src="assets/images/bugs/badge_css3{{uiInProgress?'_inprogress':''}}.svg"
+                    alt="{{uiInProgress?'Development in Progress':'CSS3'}}"
+                    title="{{uiInProgress?'Development in Progress':'CSS3'}}">
+              </span>
+              <span class="bug bug-ng" *ngIf="ngDone || ngInProgress">
+                  <img src="assets/images/bugs/badge_ng{{ngInProgress?'_inprogress':''}}.svg"
+                    alt="{{uiInProgress?'Development in Progress':'Angular 2'}}"
+                    title="{{uiInProgress?'Development in Progress':'Angular 2'}}">
+              </span>
+            </div>
+            
+            <div class="dox-tabs">
+                <ul class="list-unstyled">
+                    <!-- TODO handle scrolling and .active class -->
+                    <li><a routerLink="#top" id="topTabLink" class="clrweb-tablink">Examples &amp; Code</a></li>
+                    <li><a routerLink="#top" class="clrweb-tablink" id="guidelinesTabLink">Design Guidelines</a></li>
+                </ul>
+            </div>
+          </section>
+  
+          <section class="dox-content">
+            <div class="dox-content-wrapper">
+              <a id="top"></a>
+              ${ TEMPLATES[component.url] }
+            </div>
+          </section>
+        </main>
       `
     })
     class DocComponent {

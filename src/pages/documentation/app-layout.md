@@ -33,7 +33,7 @@ Two constants of an app built in Clarity are the header and content area. These 
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/header_contentarea.png?{{ site.time | date: '%s%N' }}" alt="Header and Content Area"/>
+        <img src="assets/images/documentation/app-layout/header_contentarea.png" alt="Header and Content Area"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <h5 style="margin-top:0">Header</h5>
@@ -65,7 +65,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/cards.png?{{ site.time | date: '%s%N' }}" alt="Cards"/>
+        <img src="assets/images/documentation/app-layout/cards.png" alt="Cards"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -86,7 +86,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/tables.png?{{ site.time | date: '%s%N' }}" alt="Tables and Datagrids"/>
+        <img src="assets/images/documentation/app-layout/tables.png" alt="Tables and Datagrids"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -105,7 +105,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/forms.png?{{ site.time | date: '%s%N' }}" alt="Forms"/>
+        <img src="assets/images/documentation/app-layout/forms.png" alt="Forms"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -122,7 +122,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/tabs.png?{{ site.time | date: '%s%N' }}" alt="Tabs"/>
+        <img src="assets/images/documentation/app-layout/tabs.png" alt="Tabs"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -138,7 +138,7 @@ For information on navigation components, header, subnav, and sidenav, see [Navi
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/typography.png?{{ site.time | date: '%s%N' }}" alt="White Space and Typography"/>
+        <img src="assets/images/documentation/app-layout/typography.png" alt="White Space and Typography"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -153,13 +153,13 @@ In the content area, buttons are left-aligned, with the primary button in the le
 
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-         <img src="{{ site.data.global.images_path }}documentation/app-layout/do_button_alignment.png?{{ site.time | date: '%s%N' }}" alt="Buttons align left in content area">
+         <img src="assets/images/documentation/app-layout/do_button_alignment.png" alt="Buttons align left in content area">
         <p><b><font color="#318700">Do.</font> </b> Left-alignment puts buttons closest to the content.
         </p>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
-           <img src="{{ site.data.global.images_path }}documentation/app-layout/dont_button_alignment.png?{{ site.time | date: '%s%N' }}" alt="Buttons do not align right in content area">
+           <img src="assets/images/documentation/app-layout/dont_button_alignment.png" alt="Buttons do not align right in content area">
         <p><b><font color="#E62700">Don't.</font> </b>On the right, buttons might appear separate from content.</p>
         </div>
     </div>
@@ -179,7 +179,7 @@ All elements in Clarity are built in terms of 24px:
 {.list}
 
 
-<img src="{{ site.data.global.images_path }}documentation/app-layout/24_baseline.png?{{ site.time | date: '%s%N' }}" alt="24px Baseline">
+<img src="assets/images/documentation/app-layout/24_baseline.png" alt="24px Baseline">
 
 ###### Repeat 24px in Your Layout
 

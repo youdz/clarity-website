@@ -245,7 +245,7 @@ Typically task-based, the title should summarize the workflow, for example, Crea
 <div class="row buttons-modal-gfx">
     <div class="col-md-6 col-sm-12 flex-xs-middle">
         <img
-            src="{{ site.data.global.images_path }}documentation/wizards/New_wizard.png"
+            src="assets/images/documentation/wizards/New_wizard.png"
             alt="Buttons on inner wizard pages"
             style="max-width:100%;">
     </div>
@@ -297,19 +297,19 @@ Right alignment supports the Z-pattern layout.  The primary button is in the rig
           <tr>
               <td class="left">First wizard page</td>
               <td class="left">
-                <img src="{{ site.data.global.images_path }}documentation/wizards/Wizard_buttons_1.png?{{ site.time | date: '%s%N' }}" width="70%" height="70%" alt="Buttons on first page of wizard">
+                <img src="assets/images/documentation/wizards/Wizard_buttons_1.png" width="70%" height="70%" alt="Buttons on first page of wizard">
               </td>
           </tr>
           <tr>
               <td class="left">Inner wizard pages</td>
               <td class="left">
-                <img src="{{ site.data.global.images_path }}documentation/wizards/Wizard_buttons_2.png?{{ site.time | date: '%s%N' }}" width="70%" height="70%" alt="Buttons on wizard inner pages">
+                <img src="assets/images/documentation/wizards/Wizard_buttons_2.png" width="70%" height="70%" alt="Buttons on wizard inner pages">
               </td>
           </tr>
           <tr>
               <td class="left">Last page</td>
               <td class="left">
-                <img src="{{ site.data.global.images_path }}documentation/wizards/Wizard_buttons_3.png?{{ site.time | date: '%s%N' }}" width="70%" height="70%" alt="Buttons on final wizard page">
+                <img src="assets/images/documentation/wizards/Wizard_buttons_3.png" width="70%" height="70%" alt="Buttons on final wizard page">
               </td>
           </tr>
     </tbody>

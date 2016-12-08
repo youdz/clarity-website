@@ -117,13 +117,13 @@ For more than two actions, use a <a href="/documentation/dropdowns">dropdown</a>
 <div class="row buttons-modal-gfx">
     <div class="col-xs-12 col-sm">
     <span>
-        <img src="{{ site.data.global.images_path }}documentation/buttons/buttons_in_cards_2.png?{{ site.time | date: '%s%N' }}" alt="Buttons align left in cards">
+        <img src="assets/images/documentation/buttons/buttons_in_cards_2.png" alt="Buttons align left in cards">
         <p><b><font color="#318700">Do.</font> </b>This card correctly aligns actions on the left.</p>
     </span>
     </div>
     <div class="col-xs-12 col-sm">
     <span>
-        <img src="{{ site.data.global.images_path }}documentation/buttons/buttons_in_cards_1.png?{{ site.time | date: '%s%N' }}" alt="Buttons do not align right in cards">
+        <img src="assets/images/documentation/buttons/buttons_in_cards_1.png" alt="Buttons do not align right in cards">
         <p><b><font color="#E62700">Don't.</font> </b> Users might not scan to the bottom right of wide cards.</p>
         </span>
     </div>
@@ -146,7 +146,7 @@ Not every card need be clickable.
     </div>
     <div class="hidden-xs-down col-sm">
     <span>
-         <img src="{{ site.data.global.images_path }}documentation/cards/card_progress.png?{{ site.time | date: '%s%N' }}">
+         <img src="assets/images/documentation/cards/card_progress.png">
     </span>
     </div>
 </div>

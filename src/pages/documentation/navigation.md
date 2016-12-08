@@ -80,15 +80,15 @@ to build the layout of your application:
 <div class="row">
     <div class="col-xs-12">
         <h6>Large screens</h6>
-        <img class="img-fluid cozy-sm" src="assets/images/documentation/navigation/header_sidenav_large.png?{{ site.time | date: '%s%N' }}"/>
+        <img class="img-fluid cozy-sm" src="assets/images/documentation/navigation/header_sidenav_large.png"/>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-6">
         <h6>Header navigation on small screens</h6>
-        <img class="img-fluid cozy-sm" src="assets/images/documentation/navigation/navLevel1.gif?{{ site.time | date: '%s%N' }}"/>
+        <img class="img-fluid cozy-sm" src="assets/images/documentation/navigation/navLevel1.gif"/>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-6">
         <h6>Sidenav on small screens</h6>
-        <img class="img-fluid cozy-sm" src="assets/images/documentation/navigation/navLevel2.gif?{{ site.time | date: '%s%N' }}"/>
+        <img class="img-fluid cozy-sm" src="assets/images/documentation/navigation/navLevel2.gif"/>
     </div>
 </div>
 
@@ -124,7 +124,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 
 <div class="row">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/Header.png?{{ site.time | date: '%s%N' }}" alt="Header"/>
+        <img src="assets/images/documentation/app-layout/Header.png" alt="Header"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>The <a href="/documentation/header">header</a> is for primary navigation. Benefits of this navigation pattern are:</div>
@@ -143,7 +143,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 
 <div class="row">
     <div class="col-xs-12 col-md-5">
-    <img src="assets/images/documentation/app-layout/subnav.png?{{ site.time | date: '%s%N' }}" alt="Subnav"/>
+    <img src="assets/images/documentation/app-layout/subnav.png" alt="Subnav"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -161,7 +161,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 
 <div class="row">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/sidenav.png?{{ site.time | date: '%s%N' }}" alt="Sidenav"/>
+        <img src="assets/images/documentation/app-layout/sidenav.png" alt="Sidenav"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -184,7 +184,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 <h4>Header and sidenav</h4>
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/header_sidenav.png?{{ site.time | date: '%s%N' }}" alt="Header & Sidenav"/>
+        <img src="assets/images/documentation/app-layout/header_sidenav.png" alt="Header & Sidenav"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -197,7 +197,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 <h4>Header and subnav</h4>
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/header_subnav.png?{{ site.time | date: '%s%N' }}" alt="Header & Subnav"/>
+        <img src="assets/images/documentation/app-layout/header_subnav.png" alt="Header & Subnav"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -209,7 +209,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 <h4>Subnav and sidenav</h4>
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/subnav_sidenav.png?{{ site.time | date: '%s%N' }}" alt="Subnav & Sidenav"/>
+        <img src="assets/images/documentation/app-layout/subnav_sidenav.png" alt="Subnav & Sidenav"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -222,7 +222,7 @@ Clarity has three navigation components: header, subnav, and sidenav.  These com
 <h4>Header, subnav and sidenav</h4>
 <div class="row cozy-sm">
     <div class="col-xs-12 col-md-5">
-        <img src="assets/images/documentation/app-layout/header_subnav_sidenav.png?{{ site.time | date: '%s%N' }}" alt="Header, Subnav & Sidenav"/>
+        <img src="assets/images/documentation/app-layout/header_subnav_sidenav.png" alt="Header, Subnav & Sidenav"/>
     </div>
     <div class="col-xs-12 col-md-7">
         <div>
@@ -243,7 +243,7 @@ For layouts 768px or under:
 
 <div class="row cozy-sm">
     <div class="col-xs-12">
-        <img src="assets/images/documentation/app-layout/header_small.png?{{ site.time | date: '%s%N' }}" class="img-fluid" alt="Header on Small Screens"/>
+        <img src="assets/images/documentation/app-layout/header_small.png" class="img-fluid" alt="Header on Small Screens"/>
     </div>
 </div>
 
@@ -251,9 +251,9 @@ When the user clicks the menu icon, a temporary side panel opens with the naviga
 
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 cozy-sm">
-        <img src="assets/images/documentation/app-layout/header_nav_level_2.png?{{ site.time | date: '%s%N' }}" class="img-fluid" alt="Header Triggers Pressed"/>
+        <img src="assets/images/documentation/app-layout/header_nav_level_2.png" class="img-fluid" alt="Header Triggers Pressed"/>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 cozy-sm">
-        <img src="assets/images/documentation/app-layout/header_nav_level_1.png?{{ site.time | date: '%s%N' }}" class="img-fluid" alt="Header Triggers Pressed"/>
+        <img src="assets/images/documentation/app-layout/header_nav_level_1.png" class="img-fluid" alt="Header Triggers Pressed"/>
     </div>
 </div>

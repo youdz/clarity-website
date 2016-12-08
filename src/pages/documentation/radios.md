@@ -12,6 +12,6 @@ layout: documentation
 
 Use radio buttons when you want users to see all available options and the list of options is small.  For mutually exclusive options, consider a [checkbox](/documentation/checkboxes) or [toggle switch](/documentation/toggle-switches).
 
-{ .list}
 - Radio buttons are best for six or fewer options.
 - For more than six options, consider a [select box](/documentation/select-boxes), which prompts users to disclose the options.  
+{.list}

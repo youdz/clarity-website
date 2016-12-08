@@ -106,9 +106,9 @@ from the server.
 
 Stack views are designed for use in the main content area and modals.  Use a stack view when you want to:
 
-{ .list}
 - Display related key/value pairs, for example, an object's settings.
 - Progressively disclose data.  This is useful when the set of key/value pairs is large or you want to enable users to reveal more complex or less frequently used data as necessary.
+{.list}
 
 #### Enabling Value Editing
 
@@ -116,10 +116,10 @@ In this pattern, the component includes an Edit button on the top right, which o
 
 #### Labels
 
-{ .list}
 - Provide terse labels that let users know what is under the label.  Try to keep the label to one line.
 - Use noun phrases, sentence-style capitalization, and no ending punctuation.
 - Avoid using icons.
+{.list}
 
 #### Highlights and Horizontal lines
 

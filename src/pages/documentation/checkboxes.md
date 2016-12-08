@@ -12,6 +12,6 @@ layout: documentation
 
 Use a checkbox for yes or no choices, for example "Remember me" on the [login page](/documentation/login).  For on and off options, use a [toggle switch](/documentation/toggle-switches).
 
-{ .list}
 - Checkboxes are best for seven or fewer options.
 - For readability, keep the checkbox label to a single line.
+{.list}

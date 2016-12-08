@@ -30,10 +30,10 @@ A <code class="clr-code">.nav-list</code> is a list of navigation links. Each na
 ### Usage {#guidelines}
 The sidenav is a familiar navigation pattern for users.  The sidenav can fit as many navigation links as needed, scrolling when the content exceeds the viewport.  Use the sidenav:
 
-{ .list}
 - For links secondary to the links in the header or subnav
 - For a navigation schema with a deep hierarchy
 - When the header and subnav cannot accommodate the required links
+{.list}
 
 The sidenav works best in desktop applications.  
 

@@ -128,7 +128,7 @@ Order menu items by usage, except for destructive actions, which belong at the b
 
 Disable a menu item if:
 
-{ .list}
 - It can apply in a different context.
 - The user doesn't have permissions for the action.
 - An appropriate object is not currently selected.
+{.list}

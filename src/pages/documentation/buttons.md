@@ -11,10 +11,10 @@ layout: documentation
 
 Clarity defines three button styles:
 
-{ .list}
 - **Solid.** A solid background with light text. These buttons are prominent on the page.
 - **Outline.** A transparent background with colored border and text. On hover, the button fills with color.
 - **Flat.** Text in Action Blue that fills with a button shape on hover.  
+{.list}
 
 <clr-buttons-demo-real-button class="clrweb-button-demo"></clr-buttons-demo-real-button>
 

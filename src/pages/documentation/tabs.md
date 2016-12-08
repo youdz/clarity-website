@@ -173,17 +173,17 @@ To ensure that all tabs appear in the container, avoid using more than seven tab
 
 While the content within tabs is flexible, follow these guidelines for organization and presentation:
 
-{ .list}
 - Ensure that the content in each view is independent of the content in other views.
 - Don't force users to navigate back and forth to compare data–keep such content in the same view.
 - Avoid cross-linking between tabs.
 - If the content within a view is broad, divide it into subsections.
+{.list}
 
 ### Labels
 
-{ .list}
 - Ensure that the labels show a clear relationship between views.
 - Favor nouns over verbs, for example, Settings, Permissions, and Performance.
 - Avoid generic labels such as General or Advanced.
 - Use title-style caps.
 - Avoid using icons in labels.
+{.list}

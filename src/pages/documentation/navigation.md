@@ -70,9 +70,9 @@ Clarity provides three levels of navigation represented by the following classna
 **Note:** Responsive navigation requires you to use the following Angular components
 to build the layout of your application:
 
-{ .list}
 - <code class="clr-code">clr-main-container</code>
 - <code class="clr-code">clr-header</code>
+{.list}
 
 #### Examples
 
@@ -102,21 +102,21 @@ to build the layout of your application:
 
 When establishing your navigation model, consider:
 
-{ .list}
 - The key use cases of your app
 - The proper hierarchy and what belongs in the primary navigation versus what goes in the secondary or lower levels of navigation
 - Whether to orient the navigation horizontally, vertically, or both
 - Whether responsiveness needs to be part of your platform strategy
+{.list}
 
 <!-- ### Navigation Components
 
 Clarity has three navigation components: header, subnav, and sidenav.  These components:
 
-{ .list}
 - Are independent of one another and can be used alone or in combination. This gives you flexibility in designing your navigation schema.
 - Support a consistent visual hierarchy between levels of navigation.
 - Adapt to changes in screen size according to predefined breakpoints and grid alignment. This responsiveness helps your app scale from small to large screens.
 -->
+{.list}
 
 ### Using the Navigation Patterns
 
@@ -237,9 +237,9 @@ Responsiveness is supported for the primary and secondary levels of navigation. 
 
 For layouts 768px or under:
 
-{ .list}
 - Primary navigation targets move to a hamburger menu on the left.
 - Secondary navigation targets move to an overflow menu on the right.
+{.list}
 
 <div class="row cozy-sm">
     <div class="col-xs-12">

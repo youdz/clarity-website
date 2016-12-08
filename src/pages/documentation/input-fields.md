@@ -42,10 +42,10 @@ You can set the size of the tooltips using these classes:
 
 Input fields require a brief label to indicate what information belongs in the field.  The label appears to the left of the input field and moves above it when the app is resized smaller.
 
-{ .list}
 - Ensure that the label wording is clear.
 - Keep the text to a single line.
 - Use sentence caps without final punctuation.
+{.list}
 
 #### Placeholder Text
 
@@ -74,12 +74,12 @@ A complex form might have multiple input fields, stacked vertically.  Space the 
 
  Avoid overlaying the validation tooltip on the data is being validated. By default, the position of the tooltip is to the top-right of the error icon, pointing to its center. Other positions to consider are:
 
-{ .list}
 - Top left
 - Bottom right
 - Bottom left
 - Side left
 - Side right
+{.list}
 
 Base the width of the tooltip on the message text.  Choices are 72 px, 120 px, 240 px, and 360 px.  The default is 240 px.
 

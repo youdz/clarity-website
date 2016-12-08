@@ -213,11 +213,11 @@ To align columns horizontally within a row, extend the row with one of the follo
 
 Clarity recommends that your application layout stay on the grid.  A grid-based approach:
 
-{ .list}
 - Aligns content consistently
 - Establishes a foundation that can be easily built upon for future designs
 - Simplifies layout decisions required of a designer
 - Coordinates the efforts of multiple designers
+{.list}
 
 #### Applying the Grid
 

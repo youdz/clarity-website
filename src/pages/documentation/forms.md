@@ -55,10 +55,10 @@ Forms guide users through input in a structured, specific order.  Forms are comp
 
 For a form that scrolls several pages, consider organizing the content by:
 
-{ .list}
 - Grouping related fields in a form block with a descriptive label.
 - Progressively revealing more complex or less frequently used data.
 - Dividing content into separate pages in a [wizard](/documentation/wizards).
+{.list}
 
 #### Labels
 

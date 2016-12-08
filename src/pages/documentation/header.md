@@ -12,11 +12,11 @@ layout: documentation
 
 <code class="clr-code">.header</code> is a wrapper around the following four sections:
 
-{ .list}
 - Branding
 - Navigation
 - Search
 - Settings
+{.list}
 
 ###### .branding
 
@@ -50,11 +50,11 @@ layout: documentation
 
 The Clarity header can include the following elements, placed from left to right:
 
-{ .list}
 - Product identification
 - Navigation
 - Search
 - Settings
+{.list}
 
 <!--![Navigation](/images/documentation/header/Navigation_header.png)-->
 
@@ -80,10 +80,10 @@ Don't mix standalone icons with standalone text links.
 
 Consider placement of Search as follows:
 
-{ .list}
 - If the header includes navigation links, place Search to the immediate right of the links.
 - If the header does not include navigation, make Search the central point.
 - Otherwise, align Search on the right.
+{.list}
 
 For larger screens, include placeholder text in the Search field to give users an example of a search query.
 

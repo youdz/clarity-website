@@ -49,12 +49,12 @@ Two constants of an app built in Clarity are the header and content area. These 
 ### Layout
 Your layout should reflect the information or workflow of the selected <a href="/documentation/navigation">navigation</a>. When laying out the content, keep the following in mind:
 
-{ .list}
 - The flow of content–how to create a hierarchy and layout that draws attention to the areas of importance
 - The importance of designing to the <a href="/documentation/grid">grid</a>
 - How to aid users in completing their tasks
 - How to handle large amounts of data
 - Responsive design (if that is part of your product's goals)
+{.list}
 
 ##### Common Layout Patterns
 
@@ -174,9 +174,9 @@ Vertical rhythm is the repetition of spatial relationships in a design.  A consi
 
 All elements in Clarity are built in terms of 24px:
 
-{ .list}
 - The height of all components and text elements is in multiples of 24px.
 - The vertical white space between elements is also in multiples of 24px.
+{.list}
 
 
 <img src="{{ site.data.global.images_path }}documentation/app-layout/24_baseline.png?{{ site.time | date: '%s%N' }}" alt="24px Baseline">

@@ -162,10 +162,10 @@ Common uses for modals are:
 
 Modals have a default width (576 pixels) and two optional widths: large (864 pixels) and small (288 pixels).
 
-{ .list}
 - The default width is best for presenting short, focused tasks, error messages, and confirmations.  
 - The larger size works well for complex forms and EULAs.  
 - The smaller size is good for providing more information about a UI element.
+{.list}
 
 #### Button Placement
 
@@ -215,9 +215,9 @@ Avoid displaying a modal on top of another modal.  An exception is opening a fil
 
 Modals that display a message (information, success, warning, or error) or ask for a confirmation should follow these guidelines:
 
-{ .list}
 - Use a short statement or direct question for the title.
 - Don't start questions with "Are you sure...?" or "Do you want to..."
 - Use sentence caps for the title.
 - Use a single primary button for information, success, warning, and error messages.
 - For a confirmation, use a primary and secondary button, and preselect the least destructive response.
+{.list}

@@ -36,7 +36,6 @@ A hex color of the background the text will appear over. Defaults to white. Theo
 ###### typeOfText
 _(Optional)_ Defaults to "text". Accepted types are:
 
-{ .list}
 - **text:** Default darkness for text color.
 - **subtext:** A text color 1 or 2 shades removed from text.
 - **hover-text:** Text color for links.
@@ -47,6 +46,7 @@ _(Optional)_ Defaults to "text". Accepted types are:
 - **darkest:** If possible, the accessible color closest to black. Otherwise, the darkest accessible color against the background.
 - **black:** Returns black if it is accessible against the background.
 - **white:** Returns white if it is accessible against the background.
+{.list}
 
 ###### fontWeight
 _(Optional)_ Defaults to "normal". Accepted types are: bold, thin, and normal.
@@ -57,7 +57,6 @@ _(Optional)_ Defaults to "normal". Accepted types are: big, small, and normal.
 ###### colorOfText
 _(Optional)_ Defaults to "grays". Determines the family of colors that the text color will be pulled from. Accepted types are:
 
-{ .list}
 - **grays:** The neutral palette.
 - **neutrals:** The neutral palette.
 - **blues:** The less-saturated blues used for backgrounds ("section blues").
@@ -68,6 +67,7 @@ _(Optional)_ Defaults to "grays". Determines the family of colors that the text 
 - **reds:** Stoplight red color palette.
 - **greens:** Stoplight green color palette.
 - **yellows:** Stoplight yellow color palette with some oranges in the midtones and browns in the darker shades.
+{.list}
 
 All parameters are optional. And the color lookup is fairly robust. Worst case is it returns either a pure white or pure black based off whether it is given a light or dark background.
 
@@ -91,17 +91,17 @@ The tables below demonstrate expected values for Clarity's color contrast utilit
 #### Base Colors
 Colors within the Clarity palette are derivatives of the five base colors and are complementary in a monochromatic, triad, or quadratic relationship:
 
-{ .list}
 - Neutral colors are for text and backgrounds. The default text color is #565656.  The default background color is #FAFAFA.
 - Action colors are for clickable items, such as buttons and links. Action Blue, #007CBB, is reserved for buttons and links.
+{.list}
 
 #### Stoplight Colors
 
 The stoplight colors are for indicating error conditions, warnings, and successes. Significant colors include:
 
-{ .list}
 - Stoplight Green, #318700, for positive actions.
 - Stoplight Red, #E62700, for warnings and errors.
+{.list}
 
 #### Highlight Colors
 

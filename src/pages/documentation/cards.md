@@ -87,10 +87,10 @@ but can be changed to two or four by adding <code class="clr-code">.card-columns
 
 Example use cases for cards include:
 
-{ .list}
 - Presenting objects, services, or content summaries while  providing entry points to more detail
 - Representing applications and initiating actions, such as download
 - Displaying metrics
+{.list}
 
 
 ### Content -- keep it simple
@@ -156,9 +156,9 @@ Not every card need be clickable.
 
 <!-- When grouping cards, consider the mental model you want to convey: -->
 
-{ .list}
 - Homogeneous content facilitates scanning -- users  quickly find and compare information of interest.  <!--Objects, applications, and services are typically collected in individual, homogeneous groups.-->
 - Content of varying type often shows "the bigger picture."<!-- --such a collection might show the number of users logged in, recent tasks, alerts, and infrastructure to build.  Cards in heterogeneous groups often don't have associated actions. -->
+{.list}
 
 ### Use a grid for card layout
 

@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
   selector: 'home',
   templateUrl: 'home.component.html',
   host: {
-    "[class.content-area]": "true",
-    "[style.overflow-y]": "hidden"
+    "[class.content-container]": "true"
   }
 })
 export class HomeComponent {

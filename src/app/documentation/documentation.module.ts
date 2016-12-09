@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import {CommonModule} from "@angular/common";
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
@@ -19,7 +19,7 @@ import {DemosModule} from "../../demos/demos.module";
     ...ALL_DOCS.map(({component}) => component)
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     FormsModule,
     DocumentationRoutingModule,
     DemosModule

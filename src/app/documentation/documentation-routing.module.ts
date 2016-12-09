@@ -7,7 +7,7 @@ import {ALL_DOCS} from "./dynamic-components";
 
 const documentationRoutes: Routes = [
   {
-    path: "documentation",
+    path: "",
     component: DocumentationComponent,
     data: {
       bodyClass: "layout-documentation"

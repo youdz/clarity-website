@@ -35,9 +35,11 @@
     "@angular/compiler-cli": "^2.2.0",
     "@types/jasmine": "^2.2.30",
     "@types/node": "^6.0.42",
+    "@webcomponents/custom-elements": "^1.0.0-alpha.3",
     "angular-cli": "1.0.0-beta.20-4",
     "codelyzer": "~1.0.0-beta.3",
     "html-loader": "^0.4.4",
+    "intl": "1.1.0",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "1.2.0",
@@ -47,10 +49,13 @@
     "karma-remap-istanbul": "^0.2.1",
     "markdown-it": "^8.1.0",
     "markdown-it-attrs": "^0.8.0",
+    "mutationobserver-shim": "^0.3.2",
     "protractor": "4.0.9",
+    "string-replace-loader": "^1.0.5",
     "ts-node": "1.2.1",
     "tslint": "3.13.0",
     "typescript": "~2.0.3",
+    "web-animations-js": "^2.2.2",
     "webdriver-manager": "10.2.5"
   }
 }

@@ -7,7 +7,7 @@ import { DocumentationComponent } from "./documentation.component";
 import {DocumentationNavLinksComponent} from "./documentation-nav-links.component";
 import {ComponentStatusComponent} from "./component-status/component-status.component";
 import {StatusDotComponent} from "./component-status/status-dot.component";
-import {ALL_DOCS} from "./dynamic-components";
+import {ALL_DOCS} from "./component-page/component-doc-pages";
 import {DemosModule} from "../../demos/demos.module";
 
 @NgModule({

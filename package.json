@@ -20,6 +20,7 @@
     "@angular/platform-browser": "^2.2.0",
     "@angular/platform-browser-dynamic": "^2.2.0",
     "@angular/router": "^3.2.0",
+    "@types/node": "^6.0.51",
     "@webcomponents/custom-elements": "^1.0.0-alpha.3",
     "clarity-angular": "^0.7.2",
     "clarity-icons": "^0.7.2",

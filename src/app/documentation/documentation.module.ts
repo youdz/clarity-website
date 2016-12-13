@@ -2,6 +2,7 @@ import {CommonModule} from "@angular/common";
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+import {UtilsModule} from "../utils/utils.module";
 import { DocumentationRoutingModule } from './documentation-routing.module';
 import { DocumentationComponent } from "./documentation.component";
 import {DocumentationNavLinksComponent} from "./documentation-nav-links.component";
@@ -21,6 +22,7 @@ import {DemosModule} from "../../demos/demos.module";
   imports: [
     CommonModule,
     FormsModule,
+    UtilsModule,
     DocumentationRoutingModule,
     DemosModule
   ],

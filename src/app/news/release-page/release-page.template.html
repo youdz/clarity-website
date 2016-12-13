@@ -62,8 +62,7 @@
         <p class="title">Sketch template</p>
         <p>
           <!-- TODO: proper fallbacks? -->
-          <a href="assets/images/sketchTemplates/Clarity-Template-{{releaseInfo.sketch}}.sketch"
-             target="_blank">Download the {{releaseInfo.sketch}} Sketch Template</a>
+          <a sketchTemplateLink [version]="releaseInfo.sketch">Download the {{releaseInfo.sketch}} Sketch Template</a>
         </p>
       </div>
       <div *ngIf="hasGitHub" class="group whats-new-mediablock">

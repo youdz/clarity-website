@@ -1,6 +1,7 @@
 import {CommonModule} from "@angular/common";
 import { NgModule } from '@angular/core';
 
+import {UtilsModule} from "../utils/utils.module";
 import { NewsRoutingModule } from './news-routing.module';
 import { NewsComponent } from "./news.component";
 import {RELEASE_ROUTES} from "./release-page/release-pages";
@@ -18,6 +19,7 @@ import {NewComponent} from "./counters/new-component.directive";
   ],
   imports: [
     CommonModule,
+    UtilsModule,
     NewsRoutingModule
   ],
   providers: []

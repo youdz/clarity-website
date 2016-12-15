@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from 'clarity-angular';
 import {ROUTING} from "./card.demo.routing";
 import {CardDemo} from "./card.demo";
 import {CardOldDemo} from "./card-old";

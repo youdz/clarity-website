@@ -18,12 +18,14 @@
       "mobile": false,
       "styles": [
         "../node_modules/prismjs/themes/prism-solarizedlight.css",
+        "../node_modules/clarity-icons/clarity-icons.min.css",
         "../node_modules/clarity-ui/clarity-ui.min.css",
         "styles/main.scss"
       ],
       "scripts": [
         "../node_modules/prismjs/prism.js",
-        "../node_modules/prismjs/components/prism-typescript.min.js"
+        "../node_modules/prismjs/components/prism-typescript.min.js",
+        "../node_modules/clarity-icons/clarity-icons.min.js"
       ],
       "environments": {
         "source": "environments/environment.ts",

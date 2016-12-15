@@ -17,6 +17,7 @@ export const TEMPLATES = {
   "grid": require("!html!../../pages/documentation/grid.html"),
   "header": require("!html!../../pages/documentation/header.html"),
   "iconography": "<h1>TODO</h1>",
+  // "iconography": require("!html!../../pages/documentation/iconography.html"),
   "input-fields": require("!html!../../pages/documentation/input-fields.html"),
   "labels": require("!html!../../pages/documentation/labels.html"),
   "lists": require("!html!../../pages/documentation/lists.html"),
@@ -35,5 +36,4 @@ export const TEMPLATES = {
   "tooltips": require("!html!../../pages/documentation/tooltips.html"),
   "typography": require("!html!../../pages/documentation/typography.html"),
   "wizards": require("!html!../../pages/documentation/wizards.html")
-  // "iconography": require("!html!../../pages/documentation/iconography.html"),
 };

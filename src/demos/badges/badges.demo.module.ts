@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
+import {ClarityModule} from 'clarity-angular';
 import {ROUTING} from "./badges.demo.routing";
 
 import {BadgesDemo} from "./badges.demo";

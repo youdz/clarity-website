@@ -13,12 +13,4 @@ import {Component, Input} from "@angular/core";
 })
 
 export class CheckboxesDemo {
-
-    @Input()
-    indeterminateState: boolean = true;
-
-    onToggleIndeterminateState() {
-        event.preventDefault();
-        this.indeterminateState = !this.indeterminateState;
-    }
 }

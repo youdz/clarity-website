@@ -3,7 +3,7 @@ import {NgModule} from "@angular/core";
 import AlertDemoModule from "./alerts/alert.demo.module";
 import BadgesDemoModule from "./badges/badges.demo.module";
 import ButtonsDemoModule from "./buttons/buttons.demo.module";
-import CardDemoModule from "./cards/card.demo.module";
+import CardDemoModule from "./card/card.demo.module";
 import CheckboxesDemoModule from "./checkboxes/checkboxes.demo.module";
 import CodeHighlightDemoModule from "./code/code-highlight.demo.module";
 import ColorDemoModule from "./color/color.demo.module";
@@ -12,6 +12,7 @@ import DropdownDemoModule from "./dropdowns/dropdown.demo.module";
 import FormsDemoModule from "./forms/forms.demo.module";
 import GridDemoModule from "./grid/grid.demo.module";
 import IconographyDemoModule from "./iconography/iconography.demo.module";
+import ImagesDemoModule from "./images/images.demo.module";
 import InputFieldsDemoModule from "./input-fields/input-fields.demo.module";
 import LabelsDemoModule from "./labels/labels.demo.module";
 import LayoutDemoModule from "./app-layout/layout.demo.module";
@@ -45,6 +46,7 @@ import WizardDemoModule from "./wizard/wizard.demo.module";
     FormsDemoModule,
     GridDemoModule,
     IconographyDemoModule,
+    ImagesDemoModule,
     InputFieldsDemoModule,
     LabelsDemoModule,
     LayoutDemoModule,

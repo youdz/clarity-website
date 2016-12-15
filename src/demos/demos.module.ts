@@ -11,6 +11,7 @@ import DatagridDemoModule from "./datagrid/datagrid.demo.module";
 import DropdownDemoModule from "./dropdowns/dropdown.demo.module";
 import FormsDemoModule from "./forms/forms.demo.module";
 import GridDemoModule from "./grid/grid.demo.module";
+import IconographyDemoModule from "./iconography/iconography.demo.module";
 import InputFieldsDemoModule from "./input-fields/input-fields.demo.module";
 import LabelsDemoModule from "./labels/labels.demo.module";
 import LayoutDemoModule from "./app-layout/layout.demo.module";
@@ -43,6 +44,7 @@ import WizardDemoModule from "./wizard/wizard.demo.module";
     DropdownDemoModule,
     FormsDemoModule,
     GridDemoModule,
+    IconographyDemoModule,
     InputFieldsDemoModule,
     LabelsDemoModule,
     LayoutDemoModule,

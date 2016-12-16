@@ -7,7 +7,7 @@ import {Component, OnInit} from "@angular/core";
 })
 export class ProgressBarInlineDemo implements OnInit {
     inlineProgress: number = 0;
-    inlineProgressTimerId: number = -1;
+    inlineProgressTimerId: any = -1;
 
     inlineStaticProgbarValue: number = 0;
     staticDangerValue: number = 0;

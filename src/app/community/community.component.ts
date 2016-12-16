@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+const CLARITYTEAM = require("../../community/team.json");
+const CONTRIBUTORS = require("../../community/contributors.json");
 
 @Component({
   selector: 'community',
@@ -8,5 +10,7 @@ import { Component } from '@angular/core';
   }
 })
 export class CommunityComponent {
-
+  team: any[] = CLARITYTEAM.members;
+  contributors: string[] = CONTRIBUTORS.contributors;
+  teamImgUrl: string = "/assets/images/team/";
 }

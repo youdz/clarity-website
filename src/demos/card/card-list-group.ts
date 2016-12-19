@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "clr-list-group-demo",
-    styleUrls: ["./card.demo.css"],
+    styleUrls: ["./card.demo.scss"],
     templateUrl: "./card-list-group.html"
 })
 export class CardListGroupDemo {

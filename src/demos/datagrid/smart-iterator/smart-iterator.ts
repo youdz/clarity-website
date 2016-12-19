@@ -19,7 +19,7 @@ const EXAMPLE = `
     selector: "clr-datagrid-smart-iterator-demo",
     providers: [Inventory],
     templateUrl: "./smart-iterator.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridSmartIteratorDemo {
     example = EXAMPLE;

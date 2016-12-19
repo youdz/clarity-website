@@ -5,7 +5,7 @@
  */
 import {Component} from "@angular/core";
 
-import {State} from "clarity-angular";
+import {State} from 'clarity-angular/datagrid/index';
 import {FetchResult, Inventory} from "../inventory/inventory";
 import {User} from "../inventory/user";
 import {ColorFilter} from "../utils/color-filter";
@@ -16,7 +16,7 @@ import {PokemonFilter} from "../utils/pokemon-filter";
     selector: "clr-datagrid-full-demo",
     providers: [Inventory],
     templateUrl: "./full.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridFullDemo {
     options = {

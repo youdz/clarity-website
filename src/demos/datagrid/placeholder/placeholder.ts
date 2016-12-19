@@ -24,7 +24,7 @@ const EXAMPLE = `
     selector: "clr-datagrid-placeholder-demo",
     providers: [Inventory],
     templateUrl: "placeholder.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridPlaceholderDemo {
     example = EXAMPLE;

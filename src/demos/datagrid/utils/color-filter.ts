@@ -5,7 +5,7 @@
  */
 import {Component, EventEmitter} from "@angular/core";
 
-import {Filter} from "clarity-angular";
+import {Filter} from 'clarity-angular/datagrid/index';
 import {User} from "../inventory/user";
 import {COLORS} from "../inventory/values";
 
@@ -16,7 +16,7 @@ import {COLORS} from "../inventory/values";
             (click)="toggleColor(color)" 
             [style.backgroundColor]="color"
             [class.color-selected]="selectedColors[color]"></span>`,
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class ColorFilter implements Filter<User> {
     allColors = COLORS;

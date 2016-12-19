@@ -13,7 +13,7 @@ import {EXAMPLES} from "./examples";
     selector: "clr-datagrid-filtering-demo",
     providers: [Inventory],
     templateUrl: "./filtering.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridFilteringDemo {
     examples = EXAMPLES;

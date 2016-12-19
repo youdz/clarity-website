@@ -5,15 +5,14 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./selects.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {SelectsDemo} from "./selects.demo";
 
 @NgModule({
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
         SelectsDemo

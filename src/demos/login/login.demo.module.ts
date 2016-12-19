@@ -5,15 +5,14 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./login.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {LoginDemo} from "./login.demo";
 
 @NgModule({
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
         LoginDemo

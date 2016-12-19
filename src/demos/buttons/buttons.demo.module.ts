@@ -5,9 +5,8 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./buttons.demo.routing";
-import {ButtonsDemo} from "./buttons.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {RealButtonDemo} from "./real-button";
 import {PrimaryButtonDemo} from "./primary-button";
 import {SecondaryButtonDemo} from "./secondary-button";
@@ -22,10 +21,8 @@ import {ButtonsTestDemo} from "./buttons-test";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        ButtonsDemo,
         RealButtonDemo,
         PrimaryButtonDemo,
         SecondaryButtonDemo,
@@ -37,7 +34,6 @@ import {ButtonsTestDemo} from "./buttons-test";
         ButtonsTestDemo
     ],
     exports: [
-        ButtonsDemo,
         RealButtonDemo,
         PrimaryButtonDemo,
         SecondaryButtonDemo,

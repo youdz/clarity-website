@@ -5,9 +5,8 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
-import {ROUTING} from "./tables.demo.routing";
-import {TablesDemo} from "./tables.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {TablesBasicDemo} from "./tables-basic";
 import {TablesLeftcellDemo} from "./tables-leftcell";
 import {TablesMultilineDemo} from "./tables-multiline";
@@ -22,10 +21,8 @@ import {TablesWidthDemo} from "./tables-width";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        TablesDemo,
         TablesBasicDemo,
         TablesLeftcellDemo,
         TablesMultilineDemo,
@@ -37,7 +34,6 @@ import {TablesWidthDemo} from "./tables-width";
         TablesWidthDemo
     ],
     exports: [
-        TablesDemo,
         TablesBasicDemo,
         TablesLeftcellDemo,
         TablesMultilineDemo,

@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "clr-card-dropdown-demo",
-    styleUrls: ["./card.demo.css"],
+    styleUrls: ["./card.demo.scss"],
     templateUrl: "./card-dropdown.html"
 })
 export class CardDropdownDemo {

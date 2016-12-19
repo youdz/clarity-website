@@ -1,21 +1,21 @@
 import {NgModule} from "@angular/core";
 
-import AlertDemoModule from "./alerts/alert.demo.module";
+import AlertDemoModule from "./alert/alert.demo.module";
 import BadgesDemoModule from "./badges/badges.demo.module";
 import ButtonsDemoModule from "./buttons/buttons.demo.module";
 import CardDemoModule from "./card/card.demo.module";
 import CheckboxesDemoModule from "./checkboxes/checkboxes.demo.module";
-import CodeHighlightDemoModule from "./code/code-highlight.demo.module";
+import CodeDemoModule from "./code/code-highlight.demo.module";
 import ColorDemoModule from "./color/color.demo.module";
 import DatagridDemoModule from "./datagrid/datagrid.demo.module";
-import DropdownDemoModule from "./dropdowns/dropdown.demo.module";
+import DropdownDemoModule from "./dropdown/dropdown.demo.module";
 import FormsDemoModule from "./forms/forms.demo.module";
 import GridDemoModule from "./grid/grid.demo.module";
 import IconographyDemoModule from "./iconography/iconography.demo.module";
 import ImagesDemoModule from "./images/images.demo.module";
 import InputFieldsDemoModule from "./input-fields/input-fields.demo.module";
 import LabelsDemoModule from "./labels/labels.demo.module";
-import LayoutDemoModule from "./app-layout/layout.demo.module";
+import LayoutDemoModule from "./layout/layout.demo.module";
 import ListsDemoModule from "./lists/lists.demo.module";
 import LoginDemoModule from "./login/login.demo.module";
 import ModalDemoModule from "./modal/modal.demo.module";
@@ -39,7 +39,7 @@ import WizardDemoModule from "./wizard/wizard.demo.module";
     ButtonsDemoModule,
     CardDemoModule,
     CheckboxesDemoModule,
-    CodeHighlightDemoModule,
+    CodeDemoModule,
     ColorDemoModule,
     DatagridDemoModule,
     DropdownDemoModule,
@@ -50,8 +50,8 @@ import WizardDemoModule from "./wizard/wizard.demo.module";
     InputFieldsDemoModule,
     LabelsDemoModule,
     LayoutDemoModule,
-    LoginDemoModule,
     ListsDemoModule,
+    LoginDemoModule,
     ModalDemoModule,
     NavDemoModule,
     ProgressBarsDemoModule,

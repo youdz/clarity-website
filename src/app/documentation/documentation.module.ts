@@ -1,6 +1,7 @@
 import {CommonModule} from "@angular/common";
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import {ClarityModule} from "clarity-angular";
 
 import {UtilsModule} from "../utils/utils.module";
 import { DocumentationRoutingModule } from './documentation-routing.module';
@@ -24,6 +25,7 @@ import {DemosModule} from "../../demos/demos.module";
     FormsModule,
     UtilsModule,
     DocumentationRoutingModule,
+    ClarityModule,
     DemosModule
   ],
   providers: []

@@ -22,4 +22,4 @@ import 'intl';
 import 'intl/locale-data/jsonp/en';
 import 'web-animations-js';
 import 'mutationobserver-shim';
-import '@webcomponents/custom-elements/';
+import '@webcomponents/custom-elements';

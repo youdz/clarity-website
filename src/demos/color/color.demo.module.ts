@@ -5,9 +5,8 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./color.demo.routing";
-import {ColorsDemo} from "./color.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {ColorPaletteBaseDemo} from "./color-palette-base";
 import {ColorPaletteStoplightDemo} from "./color-palette-stoplight";
 import {ColorPaletteHighlightDemo} from "./color-palette-highlight";
@@ -18,10 +17,8 @@ import {ColorContrastDemo} from "./color-contrast";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        ColorsDemo,
         ColorPaletteBaseDemo,
         ColorPaletteStoplightDemo,
         ColorPaletteHighlightDemo,
@@ -29,7 +26,6 @@ import {ColorContrastDemo} from "./color-contrast";
         ColorContrastDemo
     ],
     exports: [
-        ColorsDemo,
         ColorPaletteBaseDemo,
         ColorPaletteStoplightDemo,
         ColorPaletteHighlightDemo,

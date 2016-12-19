@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 import {ProgressBarExamplesDemo} from "./progress-bar-examples";
 import {ProgressBarColorsDemo} from "./progress-bar-colors";
 import {ProgressBarAnimationsDemo} from "./progress-bar-animations";
@@ -21,7 +21,7 @@ import {OldProgressBarCardsDemo} from "./old-progress-bar-cards";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         ProgressBarExamplesDemo,

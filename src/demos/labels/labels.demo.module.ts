@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 
 import {LabelsWithBadgesDemo} from "./labels-with-badges";
@@ -17,7 +17,7 @@ import {LabelsDefaultDemo} from "./labels-default";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         LabelsWithBadgesDemo,

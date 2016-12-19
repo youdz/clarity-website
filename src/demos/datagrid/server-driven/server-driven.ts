@@ -5,7 +5,7 @@
  */
 import {Component} from "@angular/core";
 
-import {State} from 'clarity-angular/datagrid/interfaces/state';
+import {State} from "clarity-angular";
 import {FetchResult, Inventory} from "../inventory/inventory";
 import {User} from "../inventory/user";
 import {EXAMPLES} from "./examples";

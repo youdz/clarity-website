@@ -25,7 +25,7 @@ import {DemosModule} from "../../demos/demos.module";
     FormsModule,
     UtilsModule,
     DocumentationRoutingModule,
-    ClarityModule,
+    ClarityModule.forChild(),
     DemosModule
   ],
   providers: []

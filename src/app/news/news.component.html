@@ -1,8 +1,9 @@
 <router-outlet></router-outlet>
 
-<nav class="sidenav">
+<nav class="sidenav" [clr-nav-level]="2">
   <section class="sidenav-content">
-    <a class="nav-link" routerLink="/news" routerLinkActive="active">Current Release ({{current}})</a>
+    <a class="nav-link" routerLink="/news" routerLinkActive="active"
+       [routerLinkActiveOptions]="{exact:true}">Current Release ({{current}})</a>
 
     <section *ngFor="let minor of minors; let i = index" class="nav-group collapsible">
       <input id="tab{{i}}" type="checkbox" checked>

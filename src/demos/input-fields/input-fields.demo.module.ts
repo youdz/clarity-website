@@ -5,13 +5,13 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 import {InputFieldsDemo} from "./input-fields.demo";
 
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         InputFieldsDemo

@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {TabsStaticDemo} from "./tabs-static";
 import {TabsAngularDemo} from "./tabs-angular";
@@ -13,7 +13,7 @@ import {TabsAngularDemo} from "./tabs-angular";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         TabsStaticDemo,

@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {LayoutAllDemo} from "./layout-all";
 import {LayoutNoSubnavDemo} from "./layout-no-subnav";
@@ -18,7 +18,7 @@ import {LayoutAdditionalSectionsDemo} from "./layout-additional-sections";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         LayoutAllDemo,

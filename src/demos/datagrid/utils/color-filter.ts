@@ -5,7 +5,7 @@
  */
 import {Component, EventEmitter} from "@angular/core";
 
-import {Filter} from 'clarity-angular/datagrid/index';
+import {Filter} from "clarity-angular";
 import {User} from "../inventory/user";
 import {COLORS} from "../inventory/values";
 

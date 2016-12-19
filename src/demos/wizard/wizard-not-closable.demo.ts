@@ -4,8 +4,8 @@
  * The full license information can be found in LICENSE in the root directory of this project.
  */
 import {Component, ViewChild} from "@angular/core";
-import {Wizard} from 'clarity-angular/wizard/wizard';
-import {CodeHighlight} from 'clarity-angular/code/code-highlight';
+import {Wizard} from "clarity-angular";
+import {CodeHighlight} from "clarity-angular";
 
 @Component({
     selector: "clr-wizard-not-closable",

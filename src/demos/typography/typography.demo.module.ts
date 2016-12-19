@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {TypographyFontWeightDemo} from "./typography-font-weight";
 import {TypographyHeadersDemo} from "./typography-headers";
@@ -15,7 +15,7 @@ import {TypographyLinksDemo} from "./typography-links";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         TypographyFontWeightDemo,

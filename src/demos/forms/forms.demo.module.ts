@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {FormFieldsDemo} from "./form-fields";
 import {FormTestDemo} from "./form-test";
@@ -16,7 +16,7 @@ import {FormGridDemo} from "./form-grid";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         FormFieldsDemo,

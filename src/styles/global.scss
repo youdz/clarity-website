@@ -157,10 +157,6 @@ h6.indent + p.indent {
 }
 
 @media (max-width: 991px) {
-    .main-container .sidenav {
-        display: none;
-    }
-
     body.layout-get-started, body.layout-components {
         .content-area > section {
             width: 100%;
@@ -208,7 +204,7 @@ body:not(.layout-home) {
     padding-bottom: $bl-1_0;
 }
 
-header .branding .clr-vmw-logo {
+.header .branding .clarity-logo {
     background-image: url(../assets/images/clarity_logo.svg);
     margin-right: $bl-0_5 - 1;
 }

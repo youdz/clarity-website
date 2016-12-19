@@ -3,9 +3,6 @@ import {Router, NavigationEnd} from "@angular/router";
 
 const TITLE = require('../settings/global.json').alt_title;
 
-const SHOW_NAV = "show-leftnav";
-const SHOW_SIDEBAR = "show-sidebar";
-
 @Component({
   selector: 'body',
   templateUrl: './app.component.html'
@@ -37,26 +34,4 @@ export class AppComponent implements OnInit {
   }
 
   public title = TITLE;
-
-  toggleTopNav() {
-
-  }
-
-  toggleSideNav() {
-
-  }
-
-  toggleNav(topNavOrSidebar) {
-    // var activeNavClass = (topNavOrSidebar == "topnav") ? SHOW_NAV : SHOW_SIDEBAR;
-    // var inactiveNavClass = (topNavOrSidebar == "topnav") ? SHOW_SIDEBAR : SHOW_NAV;
-    // var currentlyActive = this.el.nativeElement.classList.contains(activeNavClass);
-    //
-    // if (currentlyActive) {
-    //   // clicking on hamburger while already open closes nav...
-    //   $bd.removeClass(activeNavClass);
-    // } else {
-    //   $bd.removeClass(inactiveNavClass);
-    //   $bd.addClass(activeNavClass);
-    // }
-  }
 }

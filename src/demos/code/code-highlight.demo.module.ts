@@ -5,14 +5,14 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 import {CodeHighlightImportsDemo} from "./code-highlight-imports";
 import {CodeHighlightSnippetDemo} from "./code-highlight-snippet";
 
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         CodeHighlightImportsDemo,

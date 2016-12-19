@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {SpinnerSizesDemo} from "./spinner-sizes";
 import {SpinnerTypesDemo} from "./spinner-types";
@@ -13,7 +13,7 @@ import {SpinnerTypesDemo} from "./spinner-types";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         SpinnerSizesDemo,

@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {ColorPaletteBaseDemo} from "./color-palette-base";
 import {ColorPaletteStoplightDemo} from "./color-palette-stoplight";
@@ -16,7 +16,7 @@ import {ColorContrastDemo} from "./color-contrast";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         ColorPaletteBaseDemo,

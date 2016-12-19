@@ -1,5 +1,6 @@
 import {CommonModule} from "@angular/common";
 import { NgModule } from '@angular/core';
+import {ClarityModule} from "clarity-angular";
 
 import {UtilsModule} from "../utils/utils.module";
 import { GetStartedComponent } from "./get-started.component";
@@ -22,6 +23,7 @@ const route: Routes = [
   ],
   imports: [
     CommonModule,
+    ClarityModule.forChild(),
     UtilsModule,
     RouterModule.forChild(route)
   ],

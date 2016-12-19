@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {ListsUlDemo} from "./lists-ul";
 import {ListsOlDemo} from "./lists-ol";
@@ -18,7 +18,7 @@ import {OldListsInCardsDemo} from "./old-lists-in-cards";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         ListsUlDemo,

@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {GridAutoLayout1Demo} from "./grid-auto-layout-1";
 import {GridAutoLayout2Demo} from "./grid-auto-layout-2";
@@ -21,7 +21,7 @@ import {GridItemsVerticalAlignmentDemo} from "./grid-items-vertical-alignment";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         GridAutoLayout1Demo,

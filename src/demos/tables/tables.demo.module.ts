@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {TablesBasicDemo} from "./tables-basic";
 import {TablesLeftcellDemo} from "./tables-leftcell";
@@ -20,7 +20,7 @@ import {TablesWidthDemo} from "./tables-width";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         TablesBasicDemo,

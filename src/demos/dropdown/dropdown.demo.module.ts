@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 
 import {DropdownStaticDefaultDemo} from "./dropdown-static-default";
@@ -19,7 +19,7 @@ import {DropdownAngularCloseItemFalseDemo} from "./dropdown-angular-close-item-f
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         DropdownStaticDefaultDemo,

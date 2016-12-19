@@ -7,7 +7,7 @@ import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {DatagridBasicStructureDemo} from "./basic-structure/basic-structure";
 import {DatagridBindingPropertiesDemo} from "./binding-properties/binding-properties";
@@ -30,7 +30,7 @@ import {Example} from "./utils/example";
     imports: [
         CommonModule,
         FormsModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         DatagridBasicStructureDemo,

@@ -4,7 +4,7 @@
  * The full license information can be found in LICENSE in the root directory of this project.
  */
 import {Component, ViewChild} from "@angular/core";
-import {Wizard} from 'clarity-angular/wizard/wizard';
+import {Wizard} from "clarity-angular";
 
 @Component({
     selector: "clr-wizard-form-validation",

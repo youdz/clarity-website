@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 
 import {NavsDemo} from "./navs";
 import {SidenavDemo} from "./sidenav";
@@ -19,7 +19,7 @@ import {ResponsiveNav2Demo} from "./responsive-nav2";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
     ],
     declarations: [
         NavsDemo,

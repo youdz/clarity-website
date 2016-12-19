@@ -5,7 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular/clarity.module';
+import {ClarityModule} from 'clarity-angular';
 import {FormsModule} from "@angular/forms";
 import {StackViewAngularBasicDemo} from "./stack-view-angular-basic";
 import {StackViewAngularLazyloadDemo} from "./stack-view-angular-lazyload";
@@ -15,7 +15,7 @@ import {StackViewStaticDemo} from "./stack-view-static";
 @NgModule({
     imports: [
         CommonModule,
-        ClarityModule,
+        ClarityModule.forChild(),
         FormsModule,
     ],
     declarations: [

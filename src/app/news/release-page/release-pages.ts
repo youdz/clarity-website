@@ -49,15 +49,15 @@ function createChangeLogComponent(releaseNumber, releaseInfo) {
     @ViewChildren(BugFix) bugFixes: QueryList<BugFix>;
     @ViewChildren(NewComponent) newComponents: QueryList<NewComponent>;
 
-    nbBreakingChanges = 0;
-    nbBugFixes = 0;
-    nbNewComponents = 0;
+    nbBreakingChanges: number;
+    nbBugFixes: number;
+    nbNewComponents: number;
 
     ngAfterViewInit(): void {
       // No need to subscribe to changes, we know this is all just static
-      this.nbBreakingChanges = this.breakingChanges.length;
-      this.nbBugFixes = this.bugFixes.length;
-      this.nbNewComponents = this.newComponents.length;
+      this.nbBreakingChanges = this.breakingChanges ? this.breakingChanges.length : 0;
+      this.nbBugFixes = this.bugFixes ? this.bugFixes.length : 0;
+      this.nbNewComponents = this.newComponents ? this.newComponents.length : 0;
     }
 
     releaseNumber = releaseNumber;

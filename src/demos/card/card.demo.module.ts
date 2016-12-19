@@ -5,9 +5,8 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./card.demo.routing";
-import {CardDemo} from "./card.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {CardOldDemo} from "./card-old";
 import {CardGridDemo} from "./card-grid";
 import {CardClickableDemo} from "./card-clickable";
@@ -22,10 +21,8 @@ import {CardListGroupDemo} from "./card-list-group";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        CardDemo,
         CardOldDemo,
         CardGridDemo,
         CardClickableDemo,
@@ -37,7 +34,6 @@ import {CardListGroupDemo} from "./card-list-group";
         CardListGroupDemo
     ],
     exports: [
-        CardDemo,
         CardGridDemo,
         CardClickableDemo,
         CardImagesDemo,

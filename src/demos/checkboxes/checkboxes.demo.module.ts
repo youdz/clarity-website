@@ -5,15 +5,14 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./checkboxes.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {CheckboxesDemo} from "./checkboxes.demo";
 
 @NgModule({
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
         CheckboxesDemo
@@ -23,5 +22,4 @@ import {CheckboxesDemo} from "./checkboxes.demo";
     ]
 })
 export default class CheckboxesDemoModule {
-
 }

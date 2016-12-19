@@ -5,10 +5,9 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./badges.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
 
-import {BadgesDemo} from "./badges.demo";
+
 import {BadgeColorsDemo} from "./badge-colors";
 import {BadgeStatusesDemo} from "./badge-statuses";
 
@@ -16,15 +15,12 @@ import {BadgeStatusesDemo} from "./badge-statuses";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        BadgesDemo,
         BadgeColorsDemo,
         BadgeStatusesDemo
     ],
     exports: [
-        BadgesDemo,
         BadgeColorsDemo,
         BadgeStatusesDemo
     ]

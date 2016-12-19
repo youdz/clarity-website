@@ -7,7 +7,6 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "clr-tables-vertical-demo",
-    styleUrls: ["tables.demo.css"],
     templateUrl: "./tables-vertical.html"
 })
 export class TablesVerticalDemo {

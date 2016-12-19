@@ -5,9 +5,7 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./code-highlight.demo.routing";
-import {CodeHighlightDemo} from "./code-highlight.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
 import {CodeHighlightImportsDemo} from "./code-highlight-imports";
 import {CodeHighlightSnippetDemo} from "./code-highlight-snippet";
 
@@ -15,15 +13,12 @@ import {CodeHighlightSnippetDemo} from "./code-highlight-snippet";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        CodeHighlightDemo,
         CodeHighlightImportsDemo,
         CodeHighlightSnippetDemo
     ],
     exports: [
-        CodeHighlightDemo,
         CodeHighlightImportsDemo,
         CodeHighlightSnippetDemo
     ]

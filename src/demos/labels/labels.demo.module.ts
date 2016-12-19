@@ -5,10 +5,9 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./labels.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
 
-import {LabelsDemo} from "./labels.demo";
+
 import {LabelsWithBadgesDemo} from "./labels-with-badges";
 import {LabelsStatusDemo} from "./labels-status";
 import {LabelsClickableDemo} from "./labels-clickable";
@@ -19,10 +18,8 @@ import {LabelsDefaultDemo} from "./labels-default";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        LabelsDemo,
         LabelsWithBadgesDemo,
         LabelsStatusDemo,
         LabelsClickableDemo,
@@ -30,7 +27,6 @@ import {LabelsDefaultDemo} from "./labels-default";
         LabelsDefaultDemo
     ],
     exports: [
-        LabelsDemo,
         LabelsWithBadgesDemo,
         LabelsStatusDemo,
         LabelsClickableDemo,

@@ -5,15 +5,13 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./input-fields.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
 import {InputFieldsDemo} from "./input-fields.demo";
 
 @NgModule({
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
         InputFieldsDemo

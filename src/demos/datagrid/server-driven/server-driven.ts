@@ -5,7 +5,7 @@
  */
 import {Component} from "@angular/core";
 
-import {State} from "clarity-angular";
+import {State} from 'clarity-angular/datagrid/interfaces/state';
 import {FetchResult, Inventory} from "../inventory/inventory";
 import {User} from "../inventory/user";
 import {EXAMPLES} from "./examples";
@@ -14,7 +14,7 @@ import {EXAMPLES} from "./examples";
     selector: "clr-datagrid-server-driven-demo",
     providers: [Inventory],
     templateUrl: "server-driven.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridServerDrivenDemo {
     examples = EXAMPLES;

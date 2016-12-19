@@ -5,10 +5,9 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./modal.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
 
-import {ModalDemo} from "./modal.demo";
+
 import {ModalStaticDemo} from "./modal-static";
 import {ModalAngularNotClosableDemo} from "./modal-angular-not-closable";
 import {ModalAngularShowDemo} from "./modal-angular-show";
@@ -23,10 +22,8 @@ import {ModalSizesDemo} from "./modal-sizes";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        ModalDemo,
         ModalStaticDemo,
         ModalAngularNotClosableDemo,
         ModalAngularShowDemo,
@@ -37,7 +34,6 @@ import {ModalSizesDemo} from "./modal-sizes";
         ModalSizesDemo
     ],
     exports: [
-        ModalDemo,
         ModalStaticDemo,
         ModalAngularNotClosableDemo,
         ModalAngularShowDemo,

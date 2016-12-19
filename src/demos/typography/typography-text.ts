@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "clr-typography-text",
-    styleUrls: ["./typography.demo.css"],
+    styleUrls: ["./typography.demo.scss"],
     templateUrl: "./typography-text.html"
 })
 

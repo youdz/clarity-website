@@ -5,10 +5,9 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
+import {ClarityModule} from 'clarity-angular/clarity.module';
 import {FormsModule} from "@angular/forms";
-import {ROUTING} from "./wizard.demo.routing";
-import {WizardDemo} from "./wizard.demo";
+
 import {WizardAngularDemo} from "./wizard-angular";
 import {WizardStaticDemo} from "./wizard-static.demo";
 import {WizardSimple} from "./wizard-simple.demo";
@@ -24,7 +23,6 @@ import {WizardOptionsDemo} from "./wizard-options.demo";
         CommonModule,
         ClarityModule,
         FormsModule,
-        ROUTING
     ],
     declarations: [
         CodeExample,
@@ -32,7 +30,6 @@ import {WizardOptionsDemo} from "./wizard-options.demo";
         WizardSimple,
         WizardFormValidation,
         WizardAsyncValidation,
-        WizardDemo,
         WizardAngularDemo,
         WizardStaticDemo,
         WizardOptionsDemo,
@@ -43,7 +40,6 @@ import {WizardOptionsDemo} from "./wizard-options.demo";
         WizardSimple,
         WizardFormValidation,
         WizardAsyncValidation,
-        WizardDemo,
         WizardAngularDemo,
         WizardStaticDemo,
         WizardOptionsDemo,

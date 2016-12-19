@@ -1,4 +1,7 @@
+@import '~clarity-ui/src/main';
+
 $clrweb-altGray: #f3f5f8;
+
 
 @import 'clarityHelpers.scss';
 @import 'global.scss';
@@ -12,5 +15,6 @@ $clrweb-altGray: #f3f5f8;
 @import 'components.scss';
 @import 'community.scss';
 @import 'tabs.scss';
+@import "code";
 
 @import 'error-pages.scss';

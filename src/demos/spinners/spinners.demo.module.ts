@@ -5,9 +5,8 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./spinners.demo.routing";
-import {SpinnerDemo} from "./spinner.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {SpinnerSizesDemo} from "./spinner-sizes";
 import {SpinnerTypesDemo} from "./spinner-types";
 
@@ -15,15 +14,12 @@ import {SpinnerTypesDemo} from "./spinner-types";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        SpinnerDemo,
         SpinnerSizesDemo,
         SpinnerTypesDemo
     ],
     exports: [
-        SpinnerDemo,
         SpinnerSizesDemo,
         SpinnerTypesDemo
     ]

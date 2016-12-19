@@ -1,7 +1,12 @@
+/*
+ * Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from "clarity-angular";
-import {ROUTING} from "./grid.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {GridAutoLayout1Demo} from "./grid-auto-layout-1";
 import {GridAutoLayout2Demo} from "./grid-auto-layout-2";
 import {GridColumnsDemo} from "./grid-columns";
@@ -9,7 +14,6 @@ import {GridColumnStackingDemo} from "./grid-column-stacking";
 import {GridColumnOffsettingDemo} from "./grid-column-offsetting";
 import {GridColumnPushDemo} from "./grid-column-push";
 import {GridColumnPullDemo} from "./grid-column-pull";
-import {GridDemo} from "./grid.demo";
 import {GridItemsHorizontalAlignmentDemo} from "./grid-items-horizontal-alignment";
 import {GridItemsIndividualVerticalAlignmentDemo} from "./grid-items-individual-vertical-alignment";
 import {GridItemsVerticalAlignmentDemo} from "./grid-items-vertical-alignment";
@@ -18,7 +22,6 @@ import {GridItemsVerticalAlignmentDemo} from "./grid-items-vertical-alignment";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
         GridAutoLayout1Demo,
@@ -28,7 +31,6 @@ import {GridItemsVerticalAlignmentDemo} from "./grid-items-vertical-alignment";
         GridColumnOffsettingDemo,
         GridColumnPushDemo,
         GridColumnPullDemo,
-        GridDemo,
         GridItemsHorizontalAlignmentDemo,
         GridItemsIndividualVerticalAlignmentDemo,
         GridItemsVerticalAlignmentDemo
@@ -41,7 +43,6 @@ import {GridItemsVerticalAlignmentDemo} from "./grid-items-vertical-alignment";
         GridColumnOffsettingDemo,
         GridColumnPushDemo,
         GridColumnPullDemo,
-        GridDemo,
         GridItemsHorizontalAlignmentDemo,
         GridItemsIndividualVerticalAlignmentDemo,
         GridItemsVerticalAlignmentDemo

@@ -30,7 +30,7 @@ const EXAMPLE = `
     selector: "clr-datagrid-basic-structure-demo",
     providers: [Inventory],
     templateUrl: "./basic-structure.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridBasicStructureDemo {
     example = EXAMPLE;

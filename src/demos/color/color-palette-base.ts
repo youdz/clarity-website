@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "clr-color-palette-base",
-    styleUrls: ["./color-palette.demo.css"],
+    styleUrls: ["./color-palette.demo.scss"],
     templateUrl: "./color-palette-base.demo.html"
 })
 export class ColorPaletteBaseDemo {

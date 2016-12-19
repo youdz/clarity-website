@@ -5,9 +5,8 @@
  */
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import {ClarityModule} from 'clarity-angular';
-import {ROUTING} from "./tooltips.demo.routing";
-import {TooltipsDemo} from "./tooltips.demo";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {TooltipsSizesDemo} from "./tooltips-sizes";
 import {TooltipsDirectionsDemo} from "./tooltips-directions";
 import {TooltipsIconDemo} from "./tooltips-icons";
@@ -18,10 +17,8 @@ import {TooltipsButtonsDemo} from "./tooltips-buttons";
     imports: [
         CommonModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        TooltipsDemo,
         TooltipsSizesDemo,
         TooltipsDirectionsDemo,
         TooltipsIconDemo,
@@ -29,7 +26,6 @@ import {TooltipsButtonsDemo} from "./tooltips-buttons";
         TooltipsButtonsDemo
     ],
     exports: [
-        TooltipsDemo,
         TooltipsSizesDemo,
         TooltipsDirectionsDemo,
         TooltipsIconDemo,

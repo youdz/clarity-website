@@ -1,8 +1,13 @@
+/*
+ * Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+ * This software is released under MIT license.
+ * The full license information can be found in LICENSE in the root directory of this project.
+ */
 import {Component, OnInit} from "@angular/core";
 
 @Component({
     selector: "clr-progress-bar-inline-demo",
-    styleUrls: ["progress-bars.demo.css"],
+    styleUrls: ["progress-bars.demo.scss"],
     templateUrl: "./progress-bar-inline.html"
 })
 export class ProgressBarInlineDemo implements OnInit {
@@ -37,7 +42,7 @@ export class ProgressBarInlineDemo implements OnInit {
 
     runProgressBar(): void {
         this.stopProgressBar();
-        this.inlineProgressTimerId = setInterval(() => {
+        this.inlineProgressTimerId = window.setInterval(() => {
 
             let oldProgressValue: number = this.inlineProgress;
             let increment: number = Math.floor(Math.random() * 15) + 1;

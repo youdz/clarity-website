@@ -7,12 +7,11 @@ import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 
-import {ClarityModule} from "clarity-angular";
-import {ROUTING} from "./datagrid.demo.routing";
+import {ClarityModule} from 'clarity-angular/clarity.module';
+
 import {DatagridBasicStructureDemo} from "./basic-structure/basic-structure";
 import {DatagridBindingPropertiesDemo} from "./binding-properties/binding-properties";
 import {DatagridCustomRenderingDemo} from "./custom-rendering/custom-rendering";
-import {DatagridDemo} from "./datagrid.demo";
 import {DatagridFilteringDemo} from "./filtering/filtering";
 import {DatagridFullDemo} from "./full/full";
 import {DatagridPaginationDemo} from "./pagination/pagination";
@@ -32,10 +31,8 @@ import {Example} from "./utils/example";
         CommonModule,
         FormsModule,
         ClarityModule,
-        ROUTING
     ],
     declarations: [
-        DatagridDemo,
         DatagridBasicStructureDemo,
         DatagridBindingPropertiesDemo,
         DatagridCustomRenderingDemo,
@@ -52,7 +49,6 @@ import {Example} from "./utils/example";
         Example
     ],
     exports: [
-        DatagridDemo,
         DatagridBasicStructureDemo,
         DatagridBindingPropertiesDemo,
         DatagridCustomRenderingDemo,
@@ -67,5 +63,5 @@ import {Example} from "./utils/example";
         DatagridPlaceholderDemo
     ]
 })
-export default class DatagridDemoModule {
+export default class ModalDemoModule {
 }

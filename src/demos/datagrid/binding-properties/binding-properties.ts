@@ -34,7 +34,7 @@ const EXAMPLE = `
     selector: "clr-datagrid-binding-properties-demo",
     providers: [Inventory],
     templateUrl: "./binding-properties.html",
-    styleUrls: ["../datagrid.demo.css"]
+    styleUrls: ["../datagrid.demo.scss"]
 })
 export class DatagridBindingPropertiesDemo {
     example = EXAMPLE;

@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "clr-card-media-block-demo",
-    styleUrls: ["./card.demo.css"],
+    styleUrls: ["./card.demo.scss"],
     templateUrl: "./card-media-block.html"
 })
 export class CardMediaBlockDemo {

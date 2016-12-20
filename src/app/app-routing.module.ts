@@ -2,6 +2,7 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 
 import {HomeComponent} from "./home/home.component";
+import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,14 @@ const appRoutes: Routes = [
     data: {
       bodyClass: "layout-home"
     }
+  },
+  { 
+    path: '**', 
+    component: PageNotFoundComponent,
+    data: {
+      bodyClass: "layout-error",
+      browserTitle: "Page Not Found"
+    } 
   }
 ];
 

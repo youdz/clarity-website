@@ -42,7 +42,8 @@ for (let component of COMPONENTS.list) {
       path: component.url,
       component: DocComponent,
       data: {
-        bodyClass: "page-"+component.url
+        bodyClass: "page-"+component.url,
+        browserTitle: component.text
       },
     });
   }

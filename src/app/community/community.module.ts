@@ -10,7 +10,8 @@ const route: Routes = [
     path: "",
     component: CommunityComponent,
     data: {
-      bodyClass: "layout-community"
+      bodyClass: "layout-community",
+      browserTitle: "Community"
     }
   }
 ];

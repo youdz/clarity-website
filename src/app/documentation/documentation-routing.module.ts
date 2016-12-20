@@ -10,7 +10,8 @@ const documentationRoutes: Routes = [
     path: "",
     component: DocumentationComponent,
     data: {
-      bodyClass: "layout-documentation"
+      bodyClass: "layout-documentation",
+      browserTitle: "Documentation"
     },
     children: [
       ...ALL_DOCS,
@@ -18,7 +19,8 @@ const documentationRoutes: Routes = [
         path: "",
         component: ComponentStatusComponent,
         data: {
-          bodyClass: "page-documentation"
+          bodyClass: "page-documentation",
+          browserTitle: "Documentation"
         }
       }
     ]

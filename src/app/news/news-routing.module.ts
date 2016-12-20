@@ -9,7 +9,8 @@ const newsRoutes: Routes = [
     path: "",
     component: NewsComponent,
     data: {
-      bodyClass: "layout-news"
+      bodyClass: "layout-news",
+      browserTitle: "Releases"
     },
     children: RELEASE_ROUTES
   }

@@ -11,7 +11,8 @@ const route: Routes = [
     path: "",
     component: GetStartedComponent,
     data: {
-      bodyClass: "layout-get-started"
+      bodyClass: "layout-get-started",
+      browserTitle: "Get Started"
     }
   }
 ];

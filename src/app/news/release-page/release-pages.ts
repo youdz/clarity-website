@@ -20,7 +20,10 @@ for (let release in RELEASES.all) {
 
     RELEASE_ROUTES.push({
       path: release,
-      component: component
+      component: component,
+      data: {
+        browserTitle: release
+      }
     });
 
     if (release == RELEASES.current) {

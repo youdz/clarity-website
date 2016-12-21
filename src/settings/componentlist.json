@@ -85,7 +85,7 @@
             "comments": false
         },
         {
-            "url": "/get-started/index.html#howToUse",
+            "url": "/get-started#howToUse",
             "text": "Clarity Build",
             "ux": -1,
             "ui": -1,
@@ -95,7 +95,7 @@
             "noDemo": true
         },
         {
-            "url": "/get-started/index.html#seedProjectClarity",
+            "url": "/get-started#seedProjectClarity",
             "text": "Clarity Seed",
             "ux": -1,
             "ui": -1,

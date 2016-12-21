@@ -1,6 +1,7 @@
 import {Component, ElementRef, OnInit, Renderer} from '@angular/core';
 import {Router, NavigationEnd} from "@angular/router";
 import { Title } from '@angular/platform-browser';
+import {AnchorLinksHandler} from "./utils/anchor-links-handler.service";
 
 const PRODUCT_TITLE = require('../settings/global.json').alt_title;
 
@@ -10,7 +11,8 @@ const PRODUCT_TITLE = require('../settings/global.json').alt_title;
 })
 export class AppComponent implements OnInit {
 
-  constructor(private renderer: Renderer, private el: ElementRef, private router: Router, private titleService: Title) {}
+  constructor(private renderer: Renderer, private el: ElementRef, private router: Router, private titleService: Title,
+  anchorsLinkHandler: AnchorLinksHandler) {}
 
   ngOnInit() {
     this.router.events.subscribe((change: any) => {

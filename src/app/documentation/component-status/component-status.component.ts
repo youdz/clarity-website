@@ -11,4 +11,12 @@ const COMPONENTS = require("../../../settings/componentlist.json");
 })
 export class ComponentStatusComponent {
   components = COMPONENTS.list;
+
+  getUrl(item) {
+    return item.url.split("#")[0];
+  }
+
+  getFragment(item) {
+    return item.url.split("#")[1];
+  }
 }
